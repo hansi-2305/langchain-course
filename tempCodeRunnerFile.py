@@ -1,0 +1,1 @@
+    result = agent.invoke({"messages":HumanMessage(content="search for 3 job posting for an ai engineer using langchain in the bay area on linkedin and list their details")})
