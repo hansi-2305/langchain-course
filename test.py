@@ -1,9 +1,11 @@
 try:
     from langchain import hub
+
     print("Success: Imported hub from langchain")
 except ImportError:
     try:
         import langchainhub as hub
+
         print("Success: Imported langchainhub directly")
     except ImportError:
         print("Failure: Could not find hub in any format")
